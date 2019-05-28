@@ -406,7 +406,6 @@ export default {
 
 <style lang="scss" scoped>
 .tool-bar {
-	padding-top: 10px;
 	padding-bottom: 10px;
 	margin: -2px -4px;
 
@@ -422,6 +421,7 @@ export default {
 	.save-pub-btns {
 		max-width: 20em;
 		margin-left: auto;
+		padding-left: 4px;
 	}
 }
 
