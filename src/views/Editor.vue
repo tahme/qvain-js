@@ -93,8 +93,8 @@
 
 				<p>Where are your files related to this dataset:
 				<ul>
-				<li>In Fairdata IDA (you want to select files from IDA): "Select IDA files"</li>
-				<li>Somewhere else (you want to link files from remote location): "Link Remote Resources"</li>
+				<li>In Fairdata IDA (you want to select files from IDA)" and "I want to select Fairdata IDA files"</li>
+				<li>Somewhere else (you want to link files from remote location)</li>
 				</ul></p>
 			</div>
 		</div>

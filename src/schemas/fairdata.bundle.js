@@ -55,7 +55,7 @@ export default {
 	ida: {
 		schema: FairdataIdaSchema,
 		ui: FairdataIdaUi,
-		name: "Select IDA files", // "Fairdata (IDA)",
+		name: "I want to select IDA files", // "Fairdata (IDA)",
 		shortName: "IDA",
 		id: "metax-ida",
 		family: 2,
@@ -72,7 +72,7 @@ export default {
 	att: {
 		schema: FairdataAttSchema,
 		ui: FairdataAttUi,
-		name: "Link Remote resources", // "Fairdata (ATT)",
+		name: "I want to link Remote resources", // "Fairdata (ATT)",
 		shortName: "Remote resource",
 		id: "metax-att",
 		family: 2,
