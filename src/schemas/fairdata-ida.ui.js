@@ -2,7 +2,7 @@ export default {
 	tabs: [
 		{ label: 'Content Description', uri: 'description' },
 		{ label: 'Actors', uri: 'actors' },
-		{ label: 'Rights and Licences', uri: 'rights' },
+		{ label: 'Rights and Licenses', uri: 'rights' },
 		{ label: 'Temporal and Spatial Coverage', uri: 'coverage' },
 		{ label: 'Relations and History', uri: 'relations' },
 		{ label: 'Files', uri: 'files' },
@@ -668,8 +668,8 @@ export default {
 		},
 		'placeholder': "– choose license –",
 		'title': "license",
-		'description': "A licence agreement signifies what a user is allowed to do with the data.",
-		'help': "Select a licence agreement for your dataset.",
+		'description': "A license agreement signifies what a user is allowed to do with the data.",
+		'help': "Select a license agreement for your dataset.",
 	},
 	'/properties/publisher': {
 		'tab': 'extra',
