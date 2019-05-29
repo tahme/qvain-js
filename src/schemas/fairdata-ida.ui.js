@@ -566,7 +566,7 @@ export default {
 		'placeholder': "– choose type –",
 		'title': "Event outcome",
 		'description': "Succeeded/Failed",
-		'help': "Select whether the event succeeded failed",
+		'help': "Select whether the event succeeded or failed",
 	},
 	'/properties/provenance/*/properties/used_entity/*/properties/type': {
 		'widget': 'reference-data',
@@ -581,7 +581,7 @@ export default {
 		},
 		'placeholder': "– choose type –",
 		'title': "Resource type",
-		'description': "Reseource type of the entity",
+		'description': "Resource type of the entity",
 		'help': "Select the resource type for this entity.",
 	},
 	'/properties/provenance/*/properties/was_associated_with/*/oneOf/*/properties/member_of/properties/contributor_type': {
