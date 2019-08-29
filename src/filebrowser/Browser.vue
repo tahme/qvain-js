@@ -21,7 +21,7 @@
 					v-if="!disabled"
 					class="m-0"
 					:checked="selected.includes(data.item.identifier)"
-					:disabled="onlyMetadata || readOnly"
+					:disabled="editOnlyMetadata || readOnly"
 					@change="e => togglePick(e, data)"
 				/>
 			</template>
@@ -72,6 +72,7 @@
 					:identifier="data.item.identifier"
 					:file="data.item.file"
 					:read-only="readOnly"
+					:required="requireMetadata"
 					@saved="updatePasMetadata"
 				/>
 				<!--<PASMetadata v-else :identifier="data.item.identifier" :folder="data.item" />-->
@@ -106,7 +107,7 @@ const formatBytes = (bytes, decimals) => {
 
 export default {
 	name: 'browser',
-	props: ['project', 'selected', 'disabled', 'onlyMetadata', 'readOnly'],
+	props: ['project', 'selected', 'disabled', 'editOnlyMetadata', 'requireMetadata' , 'readOnly'],
 	components: {
 		Breadcrumbs,
 		FontAwesomeIcon,

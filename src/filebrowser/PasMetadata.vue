@@ -161,6 +161,9 @@ export default {
 		readOnly: {
 			type: Boolean,
 		},
+		required: {
+			type: Boolean,
+		},
 	},
 	computed: {
 		testing_id() {
